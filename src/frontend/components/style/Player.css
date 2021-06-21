@@ -1,0 +1,14 @@
+
+.info-player{
+    margin-top: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+.info-player h3{
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+}

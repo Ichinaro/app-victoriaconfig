@@ -1,0 +1,12 @@
+.tarea{
+    max-width: 90%;
+    min-width: 350px;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.tarea-body p{
+    margin: 20px 0;
+}

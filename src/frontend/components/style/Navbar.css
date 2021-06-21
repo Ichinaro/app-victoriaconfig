@@ -1,0 +1,36 @@
+.navegacion {
+  background-color: #333333;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navegacion ul {
+  display: flex;
+  flex-flow: row;
+  margin-right: 20px;
+}
+
+.navegacion ul li {
+  margin: 5px 10px;
+  /*sbackground-color: brown;*/
+  border-radius: 5px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegacion ul li a {
+  color: white;
+  padding: 2px;
+}
+
+.icono {
+  font-size: 25px;
+  color: white;
+}

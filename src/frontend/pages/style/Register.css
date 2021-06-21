@@ -1,0 +1,17 @@
+.register-container{
+  border-radius: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px 40px;
+}
+
+.op{
+  padding: 20px 20px 10px 19px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+
+.register-container-login{
+  margin-top: 20px;  
+}

@@ -1,0 +1,16 @@
+.cont-list-player{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    flex: 1 1 40%;
+    height: 500px;
+    min-width: 350px;
+    overflow-y: scroll;
+}
+
+.item-list-player{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}

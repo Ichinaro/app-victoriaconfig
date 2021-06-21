@@ -1,0 +1,21 @@
+.padre {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: column nowrap;
+  height: auto;
+  --fuente: 130px;
+}
+
+.content {
+  background-color: rgb(228, 228, 228);
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: var(--fuente);
+  min-height: calc(100vh - 80px);
+}
+
+.pi{
+  width: 90%;
+  margin: 10px auto;
+}

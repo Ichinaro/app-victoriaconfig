@@ -1,0 +1,41 @@
+.opciones {
+  /*background-color: darkslateblue;*/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}
+
+.opcion {
+  /*background-color: crimson;*/
+  background-color: rgb(20, 113, 220);
+  flex: 1 1 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  max-width: 350px;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.opcion-txt {
+  /*background-color: darksalmon;*/
+  color: white;
+}
+
+.opcion-img {
+  /*background-color: rgb(255, 255, 255);*/
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico {
+  font-size: 50px;
+  color: white;
+}

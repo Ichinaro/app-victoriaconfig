@@ -1,0 +1,15 @@
+.videos{
+    background: rgb(10, 10, 10);
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+    padding: 20px 0;
+}
+
+.video{
+    /*background-color: cadetblue;*/
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    flex: 1 1 60%;
+}

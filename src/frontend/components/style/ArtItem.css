@@ -1,0 +1,13 @@
+.articulo img {
+  width: 100%;
+  min-width: 250px;
+  /*min-width: 150px;*/
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.text-articulo {
+  width: 100%;
+  padding: 10px 20px;
+}

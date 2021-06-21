@@ -1,0 +1,23 @@
+.Precont{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.Preheader{
+    height: 150px;
+}
+
+.Preheader img{
+    height: 150px;
+    object-fit: cover ;
+}
+
+.Prebody{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    background-color: #fdc759;
+    padding: 10px;
+}

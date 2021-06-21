@@ -1,0 +1,58 @@
+.contenedor-articulos{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+.articulo{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    /*flex: 15%;*/
+    flex: 20%;
+    margin: 10px;
+}
+
+.artItem{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 250px;
+}
+
+.buscar{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.buscar label{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(15, 15, 15);
+    margin-bottom: 5px;
+}
+
+.buscar input{
+    height: 35px;
+    width: 90%;
+    padding: 0 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(46, 46, 46);
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.507);
+    color: rgb(0, 0, 0);
+}
+
+.buscar-notfound{
+    display: flex;
+    justify-content: center;
+}
+
+.buscar-notfound img{
+    height: 300px;
+    object-fit: cover;
+}

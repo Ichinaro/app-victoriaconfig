@@ -1,0 +1,39 @@
+.nav-conf {
+  background-color: #000000;
+  height: 100vh;
+  flex: 1 1 auto;
+  padding: 0 10px;
+  width: var(--fuente);
+  position: fixed;
+  top: 40px;
+}
+
+.logo {
+  background-color: brown;
+  padding: 30px 10px;
+  border-radius: 0 0 5px 5px;
+}
+.logo h1 {
+  text-align: center;
+  color: white;
+}
+
+ul {
+  /*background-color: cadetblue;*/
+  height: 60%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+/*.nav-conf ul li {
+  /*margin: auto;*/
+/*background-color: goldenrod;*/
+
+.nav-conf ul li a {
+  /*background-color: rgb(218, 54, 32);*/
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding: 5px 15px;
+}

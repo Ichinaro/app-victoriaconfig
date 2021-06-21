@@ -1,0 +1,55 @@
+.Perfil-Badge-container{
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.Perfil-Badge-banner{
+    height: 70px;
+    width: 100%;
+}
+
+.Perfil-Badge-banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.Perfil-Badge-header{
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  /*text-align: center;*/
+  /*justify-content: center;*/
+}
+
+.Perfil-Badge-body{
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    background-color: #e8e8e8;
+    overflow: hidden;
+}
+
+.Perfil-Badge-img{
+    margin: 10px;
+    border-radius: 50px;
+    height: 100px;
+}
+
+.Perfil-Badge-footer{
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px;
+}
+
+.Perfil-Badge-body h3{
+  font-size: 30px;
+  margin: 10px 0 0 0;
+}
