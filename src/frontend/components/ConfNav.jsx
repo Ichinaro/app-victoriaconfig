@@ -18,12 +18,6 @@ const ConfNav = () => {
         <li>
           <Link to="/tareas">Tareas</Link>
         </li>
-        <li>
-          <Link to="to">Descargas</Link>
-        </li>
-        <li>
-          <Link to="to">Config</Link>
-        </li>
       </ul>
     </nav>
   );
